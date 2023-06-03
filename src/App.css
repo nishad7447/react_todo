@@ -86,3 +86,13 @@ h2 {
   color: grey;
 }
 
+.crossed-over {
+  text-decoration: line-through;
+  text-decoration-color: red;
+  text-decoration-thickness: 2px;
+  /* Add any other styling properties as needed */
+}
+.finished{
+  margin-top: 20px;
+  color: red !important;
+}
