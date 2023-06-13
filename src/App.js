@@ -116,6 +116,9 @@ function App() {
           className="fas fa-plus"
         ></i>
       </div>
+        <button onClick={()=>setTodos([])}> Clear all </button>
+
+
       <div className="todos">
         {todos.map((obj) => {
           return (
